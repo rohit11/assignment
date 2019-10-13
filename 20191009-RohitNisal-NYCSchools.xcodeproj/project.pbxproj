@@ -30,6 +30,8 @@
 		10A40B052352B72F009940B7 /* HighSchoolsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A40AFF2352B72F009940B7 /* HighSchoolsRouter.swift */; };
 		10A40B062352B72F009940B7 /* HighSchoolsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A40B002352B72F009940B7 /* HighSchoolsWorker.swift */; };
 		10A40B072352B72F009940B7 /* HighSchoolsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A40B012352B72F009940B7 /* HighSchoolsModels.swift */; };
+		10A40B0F2353044E009940B7 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A40B0E2353044E009940B7 /* ScoreView.swift */; };
+		10A40B1123530462009940B7 /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A40B1023530462009940B7 /* LoadingTableViewCell.swift */; };
 		10D91F7E234EE5FF00615343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D91F7D234EE5FF00615343 /* AppDelegate.m */; };
 		10D91F84234EE5FF00615343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D91F82234EE5FF00615343 /* Main.storyboard */; };
 		10D91F86234EE60000615343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D91F85234EE60000615343 /* Assets.xcassets */; };
@@ -80,6 +82,8 @@
 		10A40AFF2352B72F009940B7 /* HighSchoolsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighSchoolsRouter.swift; sourceTree = "<group>"; };
 		10A40B002352B72F009940B7 /* HighSchoolsWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighSchoolsWorker.swift; sourceTree = "<group>"; };
 		10A40B012352B72F009940B7 /* HighSchoolsModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighSchoolsModels.swift; sourceTree = "<group>"; };
+		10A40B0E2353044E009940B7 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		10A40B1023530462009940B7 /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
 		10D91F79234EE5FF00615343 /* 20191009-RohitNisal-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20191009-RohitNisal-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D91F7C234EE5FF00615343 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10D91F7D234EE5FF00615343 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 		10A40ADB2352B40D009940B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				10A40B1023530462009940B7 /* LoadingTableViewCell.swift */,
+				10A40B0E2353044E009940B7 /* ScoreView.swift */,
 				10A40AEC2352B4ED009940B7 /* UIViewController+ActivityIndicator.swift */,
 				10A40AF42352B5C8009940B7 /* HighSchoolsTableViewCell.swift */,
 			);
@@ -377,6 +383,8 @@
 				10855CB5234FDD5F00D245D8 /* Result.swift in Sources */,
 				10A40AF52352B5C8009940B7 /* HighSchoolsTableViewCell.swift in Sources */,
 				10855CC92350579B00D245D8 /* HighSchoolDetailsViewController.swift in Sources */,
+				10A40B1123530462009940B7 /* LoadingTableViewCell.swift in Sources */,
+				10A40B0F2353044E009940B7 /* ScoreView.swift in Sources */,
 				10855CB1234FDA3700D245D8 /* Service.swift in Sources */,
 				10855CCA2350579B00D245D8 /* HighSchoolDetailsInteractor.swift in Sources */,
 				10D91F7E234EE5FF00615343 /* AppDelegate.m in Sources */,
