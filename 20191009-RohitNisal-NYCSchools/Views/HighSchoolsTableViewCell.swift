@@ -11,8 +11,6 @@ import UIKit
 class HighSchoolsTableViewCell: UITableViewCell {
     @IBOutlet var highSchoolNameLabel: UILabel!
     @IBOutlet var highSchoolAddressLabel: UILabel!
-    @IBOutlet var reputationContainerView: UIView!
-    @IBOutlet var indicatorView: UIActivityIndicatorView!
     
     override func prepareForReuse() {
         super.prepareForReuse()
